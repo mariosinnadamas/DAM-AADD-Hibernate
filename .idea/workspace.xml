@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Consultas ejercicios 5.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/clases/Departamentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/clases/Empleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Pieza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Proveedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/ej1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/ej3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/ej4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Casa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Conversor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Localizacione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Paise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Regione.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/ej1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/ej2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="com.intellij.jpb.JpaEntity" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="38CJXu1BvhjeFGXLRzqQexESrrZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ej1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ej5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.other&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/ej51" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="" />
+      <created>1768297663539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768297663539</updated>
+      <workItem from="1768297664537" duration="4030000" />
+      <workItem from="1768314990768" duration="6698000" />
+      <workItem from="1768330895315" duration="2000" />
+      <workItem from="1768375808051" duration="183000" />
+      <workItem from="1768379164210" duration="4664000" />
+      <workItem from="1768404663472" duration="246000" />
+      <workItem from="1768555103354" duration="2504000" />
+      <workItem from="1768674189632" duration="748000" />
+      <workItem from="1768987455589" duration="148000" />
+      <workItem from="1768987776310" duration="8826000" />
+      <workItem from="1769157048372" duration="4460000" />
+      <workItem from="1769528933253" duration="725000" />
+      <workItem from="1769587097898" duration="5434000" />
+      <workItem from="1769675216165" duration="1537000" />
+      <workItem from="1769764218288" duration="2978000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+Ej 4
+No se puede borrar porque tiene empleados asociados a este departamento.
+Para ajustar esto habría que comprobar si tiene empleados antes de borrar con esta consulta:
+
+Long numEmpleados = em.createQuery(
+                    "SELECT COUNT(e) from Empleados e WHERE e.id_departamento = :id",Long.class
+            ).setParameter("id",dep.getId_departamento()).getSingleResult();
+if (numEmpleados == 0) {
+    em.remove(dep);
+else {
+    sout();
+}

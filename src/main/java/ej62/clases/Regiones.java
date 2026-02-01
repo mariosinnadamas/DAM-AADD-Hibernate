@@ -1,14 +1,13 @@
 package ej62.clases;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 @Entity
-@Table(name = "regiones")
-public class Regione {
-
+@Table(name = "regiones", schema = "empleados")
+public class Regiones {
     @Id
     @Column(name = "id_region", nullable = false)
     private Integer id;
@@ -16,10 +15,10 @@ public class Regione {
     @Column(name = "nombre_region", length = 25)
     private String nombreRegion;
 
-    public Regione() {
-
+    public Regiones() {
     }
-    public Regione(Integer id, String nombreRegion) {
+
+    public Regiones(Integer id, String nombreRegion) {
         this.id = id;
         this.nombreRegion = nombreRegion;
     }
@@ -42,8 +41,9 @@ public class Regione {
 
     @Override
     public String toString() {
-        return "Regiones: " +
-                "id = " + id +
-                ", nombreRegion = " + nombreRegion;
+        return "Regione{" +
+                "id=" + id +
+                ", nombreRegion='" + nombreRegion +
+                '}';
     }
 }

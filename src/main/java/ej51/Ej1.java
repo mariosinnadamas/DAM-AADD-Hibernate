@@ -1,7 +1,7 @@
 package ej51;
 
-import ej51.clases.Departamentos;
-import ej62.clases.Localizacione;
+import ej62.clases.Departamentos;
+import ej62.clases.Localizaciones;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
@@ -20,12 +20,13 @@ public class Ej1 {
 
             tx.begin();
 
-            Localizacione loc = new Localizacione();
+            Localizaciones loc = new Localizaciones();
             Departamentos dep = new Departamentos();
             Departamentos dep2 = new Departamentos();
             Departamentos dep3 = new Departamentos();
 
-            //* Añadimos los datos y los guardamos **/
+            /*
+            //Añadimos los datos y los guardamos
             loc.setId(1);
             loc.setCodigoPostal("28411");
             loc.setCiudad("Moralzarzal");
@@ -33,10 +34,10 @@ public class Ej1 {
             //loc.setIdPais("ES");
 
             //Cada uno de los departamentos deben estar referenciados a un director por su relación con empleado
-            dep.setId_departamento(1);
-            dep.setNombre_departamento("prueba1");
-            dep.setId_director(702);
-            dep.setId_localizacion(1);
+            dep.setId(1);
+            dep.setNombreDepartamento("prueba1");
+            dep.setIdDirector(702);
+            dep.setIdLocalizacion(1);
 
             dep2.setId_departamento(2);
             dep2.setNombre_departamento("prueba2");
@@ -53,6 +54,7 @@ public class Ej1 {
             em.persist(dep);
             em.persist(dep2);
             em.persist(dep3);
+            */
 
             //Commitea
             tx.commit();

@@ -1,11 +1,13 @@
 package ej51;
 
-import ej51.clases.Departamentos;
-import ej51.clases.Empleados;
+import ej62.clases.Departamentos;
+import ej62.clases.Empleados;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
+
+import java.math.BigDecimal;
 
 public class Ej3 {
     public static void main(String[] args) {
@@ -18,14 +20,14 @@ public class Ej3 {
 
             Empleados emp = em.find(Empleados.class,301);
             if (emp != null){
-                double salarioActual = emp.getSalario();
-                emp.setSalario(salarioActual*1.05);
+                BigDecimal salarioActual = emp.getSalario();
+                //emp.setSalario(BigDecimal.valueOf(salarioActual*1.05));
             } else{
                 System.out.println("El empleado no existe");
             }
             Departamentos dep = em.find(Departamentos.class,20);
             if (dep != null){
-                dep.setId_localizacion(4000);
+                //dep.setIdLocalizacion(4000);
             } else {
                 System.out.println("El departamento no existe");
             }

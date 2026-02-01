@@ -1,6 +1,5 @@
 package ej51;
 
-import ej51.clases.Empleados;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.EntityTransaction;
@@ -16,7 +15,7 @@ public class Ej2 {
             EntityTransaction tx = em.getTransaction();
 
             tx.begin();
-
+/*
             Empleados emp = new Empleados();
             Empleados emp2 = new Empleados();
             Empleados emp3 = new Empleados();
@@ -80,7 +79,7 @@ public class Ej2 {
             em.persist(emp5);
 
             tx.commit();
-
+*/
             em.close();
             emf.close();
 

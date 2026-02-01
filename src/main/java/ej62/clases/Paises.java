@@ -6,8 +6,8 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "paises")
-public class Paise {
+@Table(name = "paises", schema = "empleados")
+public class Paises {
     @Id
     @Column(name = "id_pais", nullable = false, length = 2)
     private String idPais;
@@ -17,16 +17,12 @@ public class Paise {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_region")
-    private Regione idRegion;
+    private Regiones idRegion;
 
-    @OneToMany
-    @JoinColumn(name = "id_pais")
-    private Set<Localizacione> localizaciones = new LinkedHashSet<>();
-
-    public Paise() {
+    public Paises() {
     }
 
-    public Paise(String idPais, String nombrePais, Regione idRegion) {
+    public Paises(String idPais, String nombrePais, Regiones idRegion) {
         this.idPais = idPais;
         this.nombrePais = nombrePais;
         this.idRegion = idRegion;
@@ -48,20 +44,20 @@ public class Paise {
         this.nombrePais = nombrePais;
     }
 
-    public Regione getIdRegion() {
+    public Regiones getIdRegion() {
         return idRegion;
     }
 
-    public void setIdRegion(Regione idRegion) {
+    public void setIdRegion(Regiones idRegion) {
         this.idRegion = idRegion;
     }
 
-    public Set<Localizacione> getLocalizaciones() {
-        return localizaciones;
+    @Override
+    public String toString() {
+        return "Paise{" +
+                "idPais='" + idPais + '\'' +
+                ", nombrePais='" + nombrePais + '\'' +
+                ", idRegion=" + idRegion +
+                '}';
     }
-
-    public void setLocalizaciones(Set<Localizacione> localizaciones) {
-        this.localizaciones = localizaciones;
-    }
-
 }

@@ -5,7 +5,7 @@
              version="3.2">
     <persistence-unit name="default">
         <!-- Clases -->
-        <class>ej51.clases.Localizacion</class>
+        <class>ej62.clases.Localizaciones</class>
         <class>ej51.clases.Departamentos</class>
         <class>ej51.clases.Empleados</class>
 
@@ -80,9 +80,9 @@
     </persistence-unit>
     <persistence-unit name="ejs622">
         <!-- Clases -->
-        <class>ej51.clases.Localizacion</class>
-        <class>ej62.clases.Regione</class>
-        <class>ej62.clases.Pais</class>
+        <class>ej62.clases.Localizaciones</class>
+        <class>ej62.clases.Regiones</class>
+        <class>ej62.clases.Paises</class>
         <properties>
             <!-- Propiedades GENERALES de conexión -->
             <property name="jakarta.persistence.jdbc.driver"
@@ -92,7 +92,7 @@
 
             <!-- Propiedades ESPECÍFICAS de conexión -->
             <property name="jakarta.persistence.jdbc.url"
-                      value="jdbc:postgresql://localhost:5432/aprendizaje?currentSchema=conversor"/>
+                      value="jdbc:postgresql://localhost:5432/aprendizaje?currentSchema=ej62"/>
             <property name="jakarta.persistence.jdbc.user" value="alumno"/>
             <property name="jakarta.persistence.jdbc.password" value="alumno"/>
 

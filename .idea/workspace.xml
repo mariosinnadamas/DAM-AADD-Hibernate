@@ -5,34 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Consultas ejercicios 5.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/clases/Departamentos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej51/clases/Empleados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Pieza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Proveedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/ej1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/ej3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/ej4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Casa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Conversor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Localizacione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Paise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Regione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/ej1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/ej2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Departamentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Empleados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/HistorialTrab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/HistorialTrabId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Localizaciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Trabajo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Departamentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Localizaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej51/Ej5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/clases/Departamentos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej51/clases/Empleados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej62/clases/Localizacione.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej62/clases/Paise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Paises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej62/clases/Regione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej62/clases/Regiones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej62/ej2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej62/ej2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +40,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="com.intellij.jpb.JpaEntity" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mariosinnadamas&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mariosinnadamas/DAM-AADD-Hibernate.git&quot;,
+    &quot;accountId&quot;: &quot;0bb08335-33c0-41f5-aa7e-b22d5565a5fb&quot;
+  }
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -104,8 +114,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
       </set>
     </attachedChunks>
   </component>
@@ -131,6 +141,8 @@
       <workItem from="1769587097898" duration="5434000" />
       <workItem from="1769675216165" duration="1537000" />
       <workItem from="1769764218288" duration="2978000" />
+      <workItem from="1769947859469" duration="2836000" />
+      <workItem from="1769963449433" duration="7240000" />
     </task>
     <servers />
   </component>

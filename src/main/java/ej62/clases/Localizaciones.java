@@ -2,9 +2,12 @@ package ej62.clases;
 
 import jakarta.persistence.*;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 @Entity
-@Table(name = "localizaciones")
-public class Localizacione {
+@Table(name = "localizaciones", schema = "empleados")
+public class Localizaciones {
     @Id
     @Column(name = "id_localizacion", nullable = false)
     private Integer id;
@@ -23,18 +26,18 @@ public class Localizacione {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "id_pais")
-    private Paise idPais;
+    private Paises idPais;
 
-    public Localizacione() {
+    public Localizaciones() {
     }
 
-    public Localizacione(Integer id, String direccion, String codigoPostal, String ciudad, String provincia, Paise idPais) {
-        this.id = id;
-        this.direccion = direccion;
-        this.codigoPostal = codigoPostal;
-        this.ciudad = ciudad;
-        this.provincia = provincia;
+    public Localizaciones(Paises idPais, String provincia, String ciudad, String codigoPostal, String direccion, Integer id) {
         this.idPais = idPais;
+        this.provincia = provincia;
+        this.ciudad = ciudad;
+        this.codigoPostal = codigoPostal;
+        this.direccion = direccion;
+        this.id = id;
     }
 
     public Integer getId() {
@@ -77,12 +80,23 @@ public class Localizacione {
         this.provincia = provincia;
     }
 
-    public Paise getIdPais() {
+    public Paises getIdPais() {
         return idPais;
     }
 
-    public void setIdPais(Paise idPais) {
+    public void setIdPais(Paises idPais) {
         this.idPais = idPais;
     }
 
+    @Override
+    public String toString() {
+        return "Localizaciones{" +
+                "id=" + id +
+                ", direccion='" + direccion + '\'' +
+                ", codigoPostal='" + codigoPostal + '\'' +
+                ", ciudad='" + ciudad + '\'' +
+                ", provincia='" + provincia + '\'' +
+                ", idPais=" + idPais +
+                '}';
+    }
 }

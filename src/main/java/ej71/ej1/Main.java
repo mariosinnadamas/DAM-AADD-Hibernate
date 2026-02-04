@@ -1,9 +1,9 @@
 package ej71.ej1;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
-import jakarta.persistence.Query;
+import ej63.ej3.clases.Person;
+import jakarta.persistence.*;
+
+import java.util.List;
 
 /*
     En el proyecto de Star Wars obtén:
@@ -16,6 +16,14 @@ import jakarta.persistence.Query;
  */
 public class Main {
     public static void main(String[] args) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("ejs633");
+        EntityManager em = emf.createEntityManager();
 
+        TypedQuery<Person> query = em.createQuery("SELECT p FROM Person p", Person.class);
+        List<Person> personajes = query.getResultList();
+
+        for (Person p : personajes){
+            System.out.println(p.toString_conTodo());
+        }
     }
 }

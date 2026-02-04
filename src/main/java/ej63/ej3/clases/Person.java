@@ -185,4 +185,22 @@ public class Person {
                 ", edited=" + edited +
                 '}';
     }
+    //Con este toString para el ejercicio 7.1 salen todos los datos de los objetos relacionados
+    public String toString_conTodo() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", birthYear='" + birthYear + '\'' +
+                ", height=" + height +
+                ", mass=" + mass +
+                ", hairColor='" + hairColor + '\'' +
+                ", skinColor='" + skinColor + '\'' +
+                ", eyeColor='" + eyeColor + '\'' +
+                ", homeworld=" + homeworld +
+                ", created=" + created +
+                ", edited=" + edited +
+                ", starships=" + starships +
+                '}';
+    }
 }

@@ -4,40 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="Avance">
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Suministra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Local_depar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/StarWarsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/StarWarsDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Starship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20/storage_v2/_src_/database/aprendizaje.swGsuA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20/storage_v2/_src_/database/aprendizaje.swGsuA/schema/conversor.FYcn6w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20/storage_v2/_src_/database/aprendizaje.swGsuA/schema/empleados.CBminA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20/storage_v2/_src_/database/aprendizaje.swGsuA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20/storage_v2/_src_/database/aprendizaje.swGsuA/schema/libreria.kkIeMw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a75e5324-0bf3-49bd-b065-5a86ba2aef20/storage_v2/_src_/database/aprendizaje.swGsuA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8/storage_v2/_src_/database/aprendizaje.swGsuA/schema/ej62.IX4vAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8/storage_v2/_src_/database/aprendizaje.swGsuA/schema/empleados.CBminA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8/storage_v2/_src_/database/aprendizaje.swGsuA/schema/empleados.CBminA.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8/storage_v2/_src_/database/aprendizaje.swGsuA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ec4e9e44-0fb5-43b4-9292-a7d03ca423f8/storage_v2/_src_/database/aprendizaje.swGsuA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+    <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="Nuevos ejercicios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ej61/clases/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ej61/clases/Pieza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Pieza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ej61/clases/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej61/clases/Proveedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Departamentos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Departamentos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Localizaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej1/clases/Localizaciones.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +125,7 @@
       <workItem from="1769963449433" duration="7256000" />
       <workItem from="1770133656659" duration="5793000" />
       <workItem from="1770191857445" duration="6240000" />
-      <workItem from="1770202579263" duration="3667000" />
+      <workItem from="1770202579263" duration="4360000" />
     </task>
     <task id="LOCAL-00001" summary="Avance">
       <option name="closed" value="true" />
@@ -165,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769972257693</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Nuevos ejercicios">
+      <option name="closed" value="true" />
+      <created>1770206286089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770206286089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Avance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance" />
+    <MESSAGE value="Nuevos ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevos ejercicios" />
   </component>
 </project>

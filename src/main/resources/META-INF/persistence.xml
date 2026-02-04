@@ -6,8 +6,8 @@
     <persistence-unit name="default">
         <!-- Clases -->
         <class>ej62.clases.Localizaciones</class>
-        <class>ej51.clases.Departamentos</class>
-        <class>ej51.clases.Empleados</class>
+        <class>ej62.clases.Departamentos</class>
+        <class>ej62.clases.Empleados</class>
 
         <properties>
             <!-- Propiedades GENERALES de conexión -->
@@ -97,6 +97,58 @@
             <property name="jakarta.persistence.jdbc.password" value="alumno"/>
 
             <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="true"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="ejs63">
+        <!-- Clases del ejercicio 6.3.1-->
+        <!--
+        <class>ej63.ej1.clases.Localizaciones</class>
+        <class>ej63.ej1.clases.Departamentos</class>
+        <class>ej63.ej1.clases.Local_depar</class>
+        -->
+        <!-- Clases del ejercicio 6.3.2 -->
+        <class>ej61.clases.Proveedor</class>
+        <class>ej61.clases.Pieza</class>
+        <class>ej61.clases.Categoria</class>
+        <class>ej61.clases.Suministra</class>
+        <properties>
+
+            <!-- Propiedades GENERALES de conexión -->
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="org.postgresql.Driver"/>
+            <property name="hibernate.dialect"
+                      value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+            <!-- Propiedades ESPECÍFICAS de conexión -->
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:postgresql://localhost:5432/aprendizaje?currentSchema=ej63"/>
+            <property name="jakarta.persistence.jdbc.user" value="alumno"/>
+            <property name="jakarta.persistence.jdbc.password" value="alumno"/>
+
+            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <property name="jakarta.persistence.sql-load-script-source" value="true"/>
+        </properties>
+    </persistence-unit>
+    <persistence-unit name="ejs633">
+        <class>ej63.ej3.clases.Person</class>
+        <class>ej63.ej3.clases.Planet</class>
+        <class>ej63.ej3.clases.Starship</class>
+        <properties>
+
+            <!-- Propiedades GENERALES de conexión -->
+            <property name="jakarta.persistence.jdbc.driver"
+                      value="org.postgresql.Driver"/>
+            <property name="hibernate.dialect"
+                      value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+            <!-- Propiedades ESPECÍFICAS de conexión -->
+            <property name="jakarta.persistence.jdbc.url"
+                      value="jdbc:postgresql://localhost:5432/aprendizaje?currentSchema=star_wars"/>
+            <property name="jakarta.persistence.jdbc.user" value="alumno"/>
+            <property name="jakarta.persistence.jdbc.password" value="alumno"/>
+
+            <property name="jakarta.persistence.schema-generation.database.action" value="none"/>
             <property name="jakarta.persistence.sql-load-script-source" value="true"/>
         </properties>
     </persistence-unit>

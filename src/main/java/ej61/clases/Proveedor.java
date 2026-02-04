@@ -2,6 +2,10 @@ package ej61.clases;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "PROVEEDOR")
 public class Proveedor {
@@ -19,6 +23,8 @@ public class Proveedor {
     private String provincia;
     @Column(name = "Ciudad")
     private String ciudad;
+    @OneToMany(mappedBy = "proveedor")
+    private Set<Suministra> suministros = new HashSet<>();
 
     public Proveedor() {
     }
@@ -36,6 +42,9 @@ public class Proveedor {
     }
 
     public void setNombre(String nombre) {
+        if (nombre.isEmpty()){
+            throw new IllegalArgumentException("El nombre no puede estar vacío");
+        }
         this.nombre = nombre;
     }
 
@@ -44,6 +53,12 @@ public class Proveedor {
     }
 
     public void setTelefono(String telefono) {
+        if (telefono.isEmpty()){
+            throw new IllegalArgumentException("El telefono no puede ser nulo");
+        }
+        if (telefono.length()>9){
+            throw new IllegalArgumentException("El telefono no puede tener más de 9 digitos");
+        }
         this.telefono = telefono;
     }
 
@@ -52,6 +67,9 @@ public class Proveedor {
     }
 
     public void setProvincia(String provincia) {
+        if (provincia.isEmpty()){
+            throw new IllegalArgumentException("La provincia no puede estar vacía");
+        }
         this.provincia = provincia;
     }
 
@@ -60,7 +78,18 @@ public class Proveedor {
     }
 
     public void setCiudad(String ciudad) {
+        if (ciudad.isEmpty()){
+            throw new IllegalArgumentException("La ciudad no puede estar vacía");
+        }
         this.ciudad = ciudad;
+    }
+
+    public Set<Suministra> getSuministros() {
+        return suministros;
+    }
+
+    public void setSuministros(Set<Suministra> suministros) {
+        this.suministros = suministros;
     }
 
     @Override

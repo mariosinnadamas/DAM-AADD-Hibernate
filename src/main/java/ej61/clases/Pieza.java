@@ -2,6 +2,9 @@ package ej61.clases;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "PIEZAS")
 public class Pieza {
@@ -17,6 +20,11 @@ public class Pieza {
     private String color;
     @Column(name = "Ciudad")
     private Double precio;
+    @ManyToOne (fetch = FetchType.EAGER) //Eager porque siempre queremos saber la categoría de una pieza
+    @JoinColumn(name = "codigo_categoria", nullable = false)
+    private Categoria categoria;
+    @OneToMany(mappedBy = "pieza")
+    private Set<Suministra> suministros = new HashSet<>();
 
     public Pieza() {
     }
@@ -34,6 +42,9 @@ public class Pieza {
     }
 
     public void setNombre(String nombre) {
+        if (nombre.isEmpty()){
+            throw new IllegalArgumentException("El nombre no puede ser nulo");
+        }
         this.nombre = nombre;
     }
 
@@ -42,6 +53,9 @@ public class Pieza {
     }
 
     public void setColor(String color) {
+        if (color.isEmpty()){
+            throw new IllegalArgumentException("El color no puede estar vacío");
+        }
         this.color = color;
     }
 
@@ -50,7 +64,26 @@ public class Pieza {
     }
 
     public void setPrecio(Double precio) {
+        if (precio == null){
+            throw new IllegalArgumentException("El precio no puede estar vacío");
+        }
         this.precio = precio;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
+
+    public Set<Suministra> getSuministros() {
+        return suministros;
+    }
+
+    public void setSuministros(Set<Suministra> suministros) {
+        this.suministros = suministros;
     }
 
     @Override

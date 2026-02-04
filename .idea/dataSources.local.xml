@@ -16,8 +16,9 @@
             </node>
             <node kind="database" qname="aprendizaje">
               <node kind="schema">
-                <name qname="ej62" />
+                <name qname="ej63" />
                 <name qname="empleados" />
+                <name qname="star_wars" />
               </node>
             </node>
           </node>

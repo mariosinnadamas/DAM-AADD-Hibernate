@@ -2,6 +2,9 @@ package ej61.clases;
 
 import jakarta.persistence.*;
 
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "CATEGORIA")
 public class Categoria {
@@ -13,6 +16,11 @@ public class Categoria {
     private long codigo;
     @Column(name = "Nombre")
     private String nombre;
+    @OneToMany(mappedBy = "categoria",
+            fetch = FetchType.LAZY, //No siempre quieres las todas las piezas de una categoría
+            cascade = CascadeType.ALL, // Elimina las piezas de esa categoría
+            orphanRemoval = true) //Evita que tengamos hijos "huérfanos"
+    private Set<Pieza> piezas = new HashSet<>();
 
     public Categoria() {
     }
@@ -34,6 +42,14 @@ public class Categoria {
             System.err.println("ERROR: Nombre no puede estar vacío");
         }
         this.nombre = nombre;
+    }
+
+    public Set<Pieza> getPiezas() {
+        return piezas;
+    }
+
+    public void setPiezas(Set<Pieza> piezas) {
+        this.piezas = piezas;
     }
 
     @Override

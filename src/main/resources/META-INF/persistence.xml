@@ -134,6 +134,7 @@
         <class>ej63.ej3.clases.Person</class>
         <class>ej63.ej3.clases.Planet</class>
         <class>ej63.ej3.clases.Starship</class>
+        <class>ej63.ej3.clases.Species</class>
         <properties>
 
             <!-- Propiedades GENERALES de conexión -->

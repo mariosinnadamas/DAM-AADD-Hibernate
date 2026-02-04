@@ -50,6 +50,10 @@ public class Person {
     @JoinColumn(name = "homeworld_id", nullable = false)
     private Planet homeworld;
 
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "species_id", nullable = false)
+    private Species species;
+
     @Column(name = "created")
     private Instant created;
 
@@ -60,6 +64,14 @@ public class Person {
     @JoinTable(name = "starships_pilots",
             inverseJoinColumns = @JoinColumn(name = "starship_id"))
     private Set<Starship> starships = new LinkedHashSet<>();
+
+    public Species getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(Species species) {
+        this.species = species;
+    }
 
     public Person() {
     }

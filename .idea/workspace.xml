@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="Nuevos ejercicios">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Species.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej3/StarWarsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/StarWarsDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +129,8 @@
       <workItem from="1769963449433" duration="7256000" />
       <workItem from="1770133656659" duration="5793000" />
       <workItem from="1770191857445" duration="6240000" />
-      <workItem from="1770202579263" duration="4360000" />
+      <workItem from="1770202579263" duration="4377000" />
+      <workItem from="1770216093727" duration="3443000" />
     </task>
     <task id="LOCAL-00001" summary="Avance">
       <option name="closed" value="true" />
@@ -143,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770206286089</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Nuevos ejercicios">
+      <option name="closed" value="true" />
+      <created>1770206982161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770206982161</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

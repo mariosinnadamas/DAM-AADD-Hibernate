@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="Nuevos ejercicios">
       <change afterPath="$PROJECT_DIR$/src/main/java/ej63/ej3/clases/Species.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -13,6 +14,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ej71/ej1/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="8bd42e6b-3537-4e79-bd73-0c3bd325b8d1" name="Changes" comment="" />
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< Updated upstream
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -42,6 +47,20 @@
     &quot;accountId&quot;: &quot;0bb08335-33c0-41f5-aa7e-b22d5565a5fb&quot;
   }
 }</component>
+=======
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "mariosinnadamas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/mariosinnadamas/DAM-AADD-Hibernate.git",
+    "accountId": "cc484413-c54c-4666-a7e7-88f7c4224823"
+  }
+}]]></component>
+>>>>>>> Stashed changes
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -61,6 +80,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Ej1.executor&quot;: &quot;Run&quot;,
@@ -83,13 +103,36 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;database.other&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ej1.executor": "Run",
+    "Application.Ej2.executor": "Run",
+    "Application.Ej3.executor": "Run",
+    "Application.Ej4.executor": "Run",
+    "Application.Ej5.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "database.other",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> Stashed changes
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/ej51" />
@@ -125,12 +168,16 @@
       <workItem from="1769587097898" duration="5434000" />
       <workItem from="1769675216165" duration="1537000" />
       <workItem from="1769764218288" duration="2978000" />
+<<<<<<< Updated upstream
       <workItem from="1769947859469" duration="2836000" />
       <workItem from="1769963449433" duration="7256000" />
       <workItem from="1770133656659" duration="5793000" />
       <workItem from="1770191857445" duration="6240000" />
       <workItem from="1770202579263" duration="4377000" />
       <workItem from="1770216093727" duration="3443000" />
+=======
+      <workItem from="1769947479249" duration="121000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Avance">
       <option name="closed" value="true" />
